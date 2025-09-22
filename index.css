@@ -69,6 +69,7 @@ main div#password {
     padding: 20px;
     border: 1px solid black;
     margin: 20px;
+    word-wrap: break-word;
 }
 
 
