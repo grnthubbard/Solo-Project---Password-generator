@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Password Generator</h1>
+            <h1>By Grant Hubbard</h1>
+        </header>
+        <aside>
+            <h1>Super weak. Not secure. Awesome to me, at least. Try my random password generator now.</h1>
+        </aside>
+        <main>
+            <input type="range" id="characters" name="characters" min="8" max="100">
+            <label for="range">Characters: </label>
+            <span id="characterValue"></span>
+            <p>Generated Password</p>
+            <div id="password">
+                
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

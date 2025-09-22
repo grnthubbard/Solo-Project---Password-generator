@@ -1,0 +1,84 @@
+
+/*----------------Container Styles -------------*/
+
+#container {
+    display: grid;
+    background-color: #1A285F;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 6fr 5fr;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+
+/*----------------Header Styles -------------*/
+header {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    border-radius: 40px;
+    grid-area: header;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1296px;
+    margin-top: 50px;
+}
+
+header h1 {
+    padding-left: 5%;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*----------------Aside Styles -------------*/
+
+
+aside {
+    grid-area: aside;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+aside h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    font-weight: 100;
+    font-size: 3rem;
+    margin-left: 20%;
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+
+
+/*----------------Main Styles -------------*/
+
+main {
+    grid-area: main;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 462px;
+}
+
+main div#password {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+
+
+
+/*----------------Footer Styles -------------*/
+
+
+
+footer {
+    grid-area: footer;
+}
+
